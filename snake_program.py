@@ -30,7 +30,7 @@ def score(your_score):
 def rand_food():
     food_x = round(random.randint(0, display_x - snake_width) / 10.0) * 10.0
     food_y = round(random.randint(0, display_y - snake_width) / 10.0) * 10.0
-    return food_x, food_x
+    return food_x, food_y
 
 
 def game_loop():
